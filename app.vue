@@ -1,6 +1,6 @@
-<template>
+<!-- <template>
   <div>
-    <!-- Vuetify Card Center Horizontal and Vertical -->
+     Vuetify Card Center Horizontal and Vertical 
     <v-card class="mx-auto" width="400">
       <v-card-title>
         Card Title
@@ -14,5 +14,14 @@
         </v-btn>
       </v-card-actions>
     </v-card>
+  </div>
+</template> 
+-->
+
+<template>
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
